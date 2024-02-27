@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Draw Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Message">Message</string>
+    <string name="Stars">Stars</string>
+    <string name="Profile">Profile</string>
+    <string name="open_drawer">OPEN</string>
+    <string name="Close_drawer">CLOSE</string>
+    <string name="UploadProduct">Upload Product</string>
+    <string name="Edit_Product">Edit Product</string>
+    <string name="History">History</string>
+    <string name="Unpaid_Order">Unpaid Order</string>
+    <string name="Order_Receive">Order Receive</string>
+    <string name="Delete_Product">Delete Product</string>
+    <string name="IC_number">IC</string>
+    <string name="enter_number">Enter number</string>
+    <string name="E_mail">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="Company_Reg_No">Company Reg No</string>
+    <string name="Company_name">Company name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="Username">Username</string>
+    <string name="Address">Address</string>
+    <string name="enter_the_address">enter the address</string>
+    <string name="Description">Description</string>
+    <string name="check">check</string>
+    <string name="Business_hour">Business Hour</string>
+    <string name="Hours">Hours</string>
+    <string name="Contact_No">Contact No</string>
+</resources>
