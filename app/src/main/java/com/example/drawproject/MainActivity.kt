@@ -4,16 +4,21 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.navigation.NavController
 import com.example.drawproject.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var actionBarDrawerToogle: ActionBarDrawerToggle
+    lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         setSupportActionBar(binding.toolbar)
+
+        //open and close drawer
         actionBarDrawerToogle= ActionBarDrawerToggle(this,binding.drawerActivity,binding.toolbar,R.string.open_drawer,R.string.Close_drawer)
         binding.drawerActivity.addDrawerListener(actionBarDrawerToogle)
         actionBarDrawerToogle.syncState()
